@@ -60,7 +60,7 @@ export const ContactSection = () => {
               </motion.div>
               <Image
                 src="/profile_enhanced.webp"  
-                alt="Kenneth Sunjaya"
+                alt="Karim Bouzid"
                 draggable={false}
                 width={400}
                 height={0}
@@ -100,7 +100,7 @@ export const ContactSection = () => {
             >
               <Image 
                 src="/profile_enhanced.webp"
-                alt="Kenneth Sunjaya"
+                alt="Karim Bouzid"
                 draggable={false}
                 width={breakpoint === 'xs' || breakpoint === "sm" ? 300 : breakpoint === "md" ? 350 : breakpoint === 'lg' ? 400 : 500}
                 height={0}
@@ -117,7 +117,7 @@ export const ContactSection = () => {
         animate={ scrollPosition + window.innerHeight >= document.body.scrollHeight - 100 ? { opacity: 1, y: 0 } : {} }
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
       >   
-        &copy; 2025 Kenneth Sunjaya. All rights reserved.
+        &copy; 2025 Karim Bouzid. All rights reserved.
       </motion.footer>
     </div>
   );

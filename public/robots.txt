@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://kennethsunjaya.com
+Host: https://bouzidkarim.com
 
 # Sitemaps
-Sitemap: https://kennethsunjaya.com/sitemap.xml
+Sitemap: https://bouzidkarim.com/sitemap.xml

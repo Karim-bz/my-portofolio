@@ -29,8 +29,8 @@ const anonymousPro = Anonymous_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Kenneth Sunjaya",
-  description: "Explore the portfolio of Kenneth Sunjaya, a Software Engineer specializing in web development, machine learning, and problem-solving.",
+  title: "Karim Bouzid",
+  description: "Explore the portfolio of Karim Bouzid, a Software Engineer specializing in web development, mobile development, and problem-solving.",
 };
 
 export default function RootLayout({
