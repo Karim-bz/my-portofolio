@@ -20,7 +20,7 @@ export const SocialMediaLinks = () => {
             transition={{ duration: 0.3 }}  
           >LinkedIn
           </motion.div>}
-        <FaLinkedin className="cursor-pointer hover:scale-110 transition hover:text-secondary" onClick={() => window.open("https://www.linkedin.com/in/kenneth-sunjaya", "_blank")} onMouseEnter={() => setIsLinkedinLabelVisible(true)} onMouseLeave={() => setIsLinkedinLabelVisible(false)} />
+        <FaLinkedin className="cursor-pointer hover:scale-110 transition hover:text-secondary" onClick={() => window.open("https://www.linkedin.com/in/karimbouzid", "_blank")} onMouseEnter={() => setIsLinkedinLabelVisible(true)} onMouseLeave={() => setIsLinkedinLabelVisible(false)} />
       </div>
       <div className="flex gap-5 items-center justify-end">
         {(isInstagramLabelVisible && orientation === "landscape") && 
@@ -30,7 +30,7 @@ export const SocialMediaLinks = () => {
             transition={{ duration: 0.3 }}  
           >Instagram
           </motion.div>}
-        <FaInstagram className="cursor-pointer hover:scale-110 transition hover:text-secondary" onClick={() => window.open("https://www.instagram.com/kensunjaya", "_blank")} onMouseEnter={() => setIsInstagramLabelVisible(true)} onMouseLeave={() => setIsInstagramLabelVisible(false)} />
+        <FaInstagram className="cursor-pointer hover:scale-110 transition hover:text-secondary" onClick={() => window.open("https://www.instagram.com/dev.karim", "_blank")} onMouseEnter={() => setIsInstagramLabelVisible(true)} onMouseLeave={() => setIsInstagramLabelVisible(false)} />
       </div>
       <div className="flex gap-5 items-center justify-end">
         {isGithubLabelVisible && (orientation === "landscape") && 
@@ -40,7 +40,7 @@ export const SocialMediaLinks = () => {
             transition={{ duration: 0.3 }}  
           >GitHub
           </motion.div>}
-        <FaGithub className="cursor-pointer hover:scale-110 transition hover:text-secondary" onClick={() => window.open("https://www.github.com/kensunjaya", "_blank")} onMouseEnter={() => setIsGithubLabelVisible(true)} onMouseLeave={() => setIsGithubLabelVisible(false)} />
+        <FaGithub className="cursor-pointer hover:scale-110 transition hover:text-secondary" onClick={() => window.open("https://github.com/Karim-bz", "_blank")} onMouseEnter={() => setIsGithubLabelVisible(true)} onMouseLeave={() => setIsGithubLabelVisible(false)} />
       </div>
     </div>
   );

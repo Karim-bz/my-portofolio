@@ -17,11 +17,8 @@ export const TechStackSlider = ({ className, style }: { className?: string; styl
     { src: "/techstacks/nextjs.svg", alt: "nextjs" },
     { src: "/techstacks/nodejs.svg", alt: "nodejs" },
     { src: "/techstacks/typescript.svg", alt: "typescript" },
-    { src: "/techstacks/python.svg", alt: "python" },
-    { src: "/techstacks/c++.svg", alt: "c++" },
     { src: "/techstacks/git.svg", alt: "git" },
     { src: "/techstacks/firebase.svg", alt: "firebase" },
-    { src: "/techstacks/postgresql.svg", alt: "postgresql" },
     { src: "/techstacks/tailwindcss.svg", alt: "tailwindcss" },
   ];
 
