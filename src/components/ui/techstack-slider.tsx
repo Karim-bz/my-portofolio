@@ -11,6 +11,7 @@ export const TechStackSlider = ({ className, style }: { className?: string; styl
   const speed = 0.2; // px per frame
 
   const initialTechstacks = [
+    { src: "/techstacks/android.svg", alt: "android" },
     { src: "/techstacks/kotlin.svg", alt: "kotlin" },
     { src: "/techstacks/flutter.svg", alt: "flutter" },
     { src: "/techstacks/react.svg", alt: "react" },

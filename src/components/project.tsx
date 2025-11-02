@@ -27,6 +27,9 @@ export const Project = ({ title, description, imageUrl, link, number, breakpoint
     "Flask": "border-gray-300 text-gray-300",
     "GCP": "border-green-300 text-green-300",
     "Gemini": "border-sky-400 text-sky-400",
+    "Dart": "border-blue-300 text-blue-300",
+    "Flutter": "border-blue-300 text-blue-300",
+    "PHP": "border-purple-300 text-purple-300",
   };
 
   const techStackClassesLight: Record<TechStack, string> = {
@@ -45,6 +48,9 @@ export const Project = ({ title, description, imageUrl, link, number, breakpoint
     "Flask": "border-gray-700 text-gray-700",
     "GCP": "border-green-700 text-green-700",
     "Gemini": "border-sky-600 text-sky-600",
+    "Dart": "border-blue-600 text-blue-600",
+    "Flutter": "border-blue-600 text-blue-600",
+    "PHP": "border-purple-600 text-purple-600",
   };
 
   const navigator = useRouter();

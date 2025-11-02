@@ -64,57 +64,18 @@ function Home() {
 
       <LazySection id="project1">
         <Project
-          title={'Chroma War'}
-          description={"A fast-paced two-player chain reaction strategy game. Challenge friends online or test your skills against a smart AI opponent!"}
-          imageUrl={"/chroma-war.webp"}
-          logo={"/chroma_war_logo.webp"}
-          link={"https://chroma-war.vercel.app"}
+          title={'Fly Delivery'}
+          description={"An application for fast food ordering and delivery, it connects you to your favorite restaurants, providing a seamless and hassle-free fast food ordering experience."}
+          imageUrl={"/fly-delivery.png"}
+          logo={"/fly_delivery_logo.webp"}
+          link={"https://play.google.com/store/apps/details?id=tn.flydelivery.client"}
           number={1}
           breakpoint={breakpoint}
-          techstacks={['Next.js', 'TypeScript', 'Node.js', 'Socket.io']}
-          project_story_path={"/projects/chroma-war"}
+          techstacks={['Flutter', 'Dart', 'Firebase', 'PHP']}
+          // project_story_path={"/projects/fly-delivery"}
         />
       </LazySection>
 
-      <LazySection id="project2">
-        <Project
-          title={'NExT Sudoku'}
-          description={"A modern take on the classic Sudoku puzzle, featuring a puzzle generation algorithm that creates unique puzzles for endless gameplay."}
-          imageUrl={"/next-sudoku.webp"}
-          logo={"/next_sudoku_logo.webp"}
-          link={"https://next-sudoku-web.vercel.app"}
-          number={2}
-          breakpoint={breakpoint}
-          techstacks={['Next.js', 'TypeScript', 'Node.js', 'AWS']}
-          project_story_path={"/projects/next-sudoku"}
-        />
-      </LazySection>
-      <LazySection id="project3">
-        <Project
-          title={'SEATUDY'}
-          description={"An online learning platform that is designed to enhance the learning experience through materials and resources tailored to individual student needs."}
-          imageUrl={"/seatudy.webp"}
-          logo={"/seatudy_logo.webp"}
-          link={"https://github.com/Filbert88/seatudy"}
-          number={3}
-          breakpoint={breakpoint}
-          techstacks={['Next.js', 'TypeScript', 'PostgreSQL', 'Express', 'Figma']}
-          project_story_path={"/projects/seatudy"}  
-        />
-      </LazySection>
-      <LazySection id="project4">
-        <Project
-          title={'HORUS AI'}
-          description={"An intelligent real-time system that detects illegal parking behavior from live traffic camera feeds by analyzing driver actions and intent, rather than just identifying parked vehicles."}
-          imageUrl={"/horus-ai-preview.webp"}
-          logo={"/horus_logo.webp"}
-          link={"https://horusintelligence.vercel.app/"}
-          number={4}
-          breakpoint={breakpoint}
-          techstacks={['Next.js', 'GCP', 'YOLOv11', 'Flask', 'Firebase', 'Gemini']}
-          project_story_path={"/projects/horus-ai"}  
-        />
-      </LazySection>
       <LazySection id="experience">
         <Experience />
       </LazySection>
