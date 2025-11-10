@@ -26,7 +26,7 @@ export const RoleAnimator = () => {
 
  
 const RotateWords = ({
-  firstWord = ["Software", "Software", "Front-End", "Mobile"],
+  firstWord = ["Software", "Back-End", "Front-End", "Mobile"],
   secondWord = ["Engineer.", "Developer.", "Developer.", "Developer."],
   translateX = [0, 40, -120, 0]
 }: {
