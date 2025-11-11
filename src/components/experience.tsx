@@ -21,14 +21,14 @@ export const Experience = () => {
       {
         period: "02/2025 – Present",
         title: "Creative DMS.",
-        role: "React Native Developer",
+        role: "Software Engineer | Front-End Developer | React native Developer",
         description:
           "Creating efficient, high-performing mobile apps using React Native. Focused on code quality, performance, and delivering smooth, consistent experiences across platforms.",
       },
       {
         period: "04/2024 – 12/2024",
         title: "Netcapital B.V.",
-        role: "Software Engineer intern",
+        role: "Software Engineer",
         description:
           "Collaborated with a development team to build and enhance a custom CMS. Contributed to both frontend and backend features, improving usability and overall system performance.",
       },
